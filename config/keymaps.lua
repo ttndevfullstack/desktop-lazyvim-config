@@ -47,3 +47,13 @@ vim.keymap.set(
   "<cmd>DiffviewFileHistory %<CR>",
   { desc = "Git File History", noremap = true, silent = true }
 )
+
+-- Move line down
+vim.keymap.set("n", "<A-Down>", ":m .+1<CR>==", { desc = "Move line down" })
+vim.keymap.set("i", "<A-Down>", "<Esc>:m .+1<CR>==gi", { desc = "Move line down" })
+vim.keymap.set("v", "<A-Down>", ":m '>+1<CR>gv=gv", { desc = "Move selection down" })
+
+-- Move line up
+vim.keymap.set("n", "<A-Up>", ":m .-2<CR>==", { desc = "Move line up" })
+vim.keymap.set("i", "<A-Up>", "<Esc>:m .-2<CR>==gi", { desc = "Move line up" })
+vim.keymap.set("v", "<A-Up>", ":m '<-2<CR>gv=gv", { desc = "Move selection up" })

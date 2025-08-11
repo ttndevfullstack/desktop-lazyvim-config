@@ -8,3 +8,10 @@ vim.opt.number = true
 
 -- Not automatically format code
 vim.g.autoformat = false
+
+-- Enable modifiable for AI gent
+vim.bo.modifiable = true
+
+-- Keep indent of current line when down line
+vim.opt.autoindent = true
+vim.opt.indentexpr = ""
