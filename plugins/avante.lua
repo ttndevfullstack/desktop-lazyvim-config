@@ -20,7 +20,7 @@ return {
         timeout = 30000, -- Timeout in milliseconds
         extra_request_body = {
           temperature = 0.2,
-          max_tokens = 2048,
+          max_tokens = 20480,
         },
       },
       claude = {
