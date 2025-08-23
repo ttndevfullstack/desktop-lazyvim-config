@@ -1,4 +1,4 @@
-autocmds.lua
-lazy.lua
+config/autocmds.lua
+config/lazy.lua
 
-example.lua
+plugins/example.lua
