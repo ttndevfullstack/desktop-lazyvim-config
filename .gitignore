@@ -2,3 +2,4 @@ config/autocmds.lua
 config/lazy.lua
 
 plugins/example.lua
+plugins/init.lua
