@@ -1,0 +1,40 @@
+# Neovim swap, backup, and undo files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*.rej
+*.un~
+*.zip
+
+# Undo history
+undo/
+*.un~
+
+# Session files
+session/
+sessions/
+
+# Lazy.nvim plugin manager state
+lazy-lock.json
+state.json
+*.log
+
+# Plugin cache (can get big, auto-generated)
+plugin/
+lua/*/plugin/
+lua/*/compiled.lua
+
+# Mason (LSP/DAP/Linter/Formatter manager) packages
+mason/
+
+# LSP logs
+.lsp/
+
+# Treesitter parsers
+parser/
+
+# General cache
+.cache/
+
